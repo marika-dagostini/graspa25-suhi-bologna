@@ -396,19 +396,19 @@ var lyr_LandCover2023withUrbanClassification = new ol.layer.Image({
      
     title: '<div id="layertitle">Land Cover 2023 - New Classification<br />\
         <i class="fas fa-angle-up" id="secondImage"></i><i class="fas fa-angle-down" id="firstImage"></i></div><a class="layerlegend">\
-        <img src="styles/legend/LandCover2023NewClassification_0.png" /> Conifere<br />\
-        <img src="styles/legend/LandCover2023NewClassification_1.png" /> Arbusteti<br />\
-        <img src="styles/legend/LandCover2023NewClassification_2.png" /> Corpi Idrici Permanenti <br />\
-        <img src="styles/legend/LandCover2023NewClassification_3.png" /> Erbaceo Periodico<br />\
-        <img src="styles/legend/LandCover2023NewClassification_4.png" /> Erbaceo Permanente<br />\
-        <img src="styles/legend/LandCover2023NewClassification_5.png" /> Industriale<br />\
-        <img src="styles/legend/LandCover2023NewClassification_6.png" /> Latifoglie<br />\
-        <img src="styles/legend/LandCover2023NewClassification_7.png" /> Superfici Impermeabili<br />\
-        <img src="styles/legend/LandCover2023NewClassification_8.png" /> Superfici non Consolidate<br />\
-        <img src="styles/legend/LandCover2023NewClassification_9.png" /> Urbano - Arbusteti<br />\
-        <img src="styles/legend/LandCover2023NewClassification_10.png" /> Urbano - Conifere<br />\
-        <img src="styles/legend/LandCover2023NewClassification_11.png" /> Urbano - Erbaceo Permaente<br />\
-        <img src="styles/legend/LandCover2023NewClassification_12.png" /> Urbano - Latifoglie<br /></a>'
+        <img src="styles/legend/LandCover2023NewClassification_6.png" /> Broadleaf<br />\
+        <img src="styles/legend/LandCover2023NewClassification_0.png" /> Coniferous<br />\
+        <img src="styles/legend/LandCover2023NewClassification_1.png" /> Shrub<br />\
+        <img src="styles/legend/LandCover2023NewClassification_4.png" /> Perennial Herbaceous<br />\
+        <img src="styles/legend/LandCover2023NewClassification_3.png" /> Seasonal Herbaceous<br />\
+        <img src="styles/legend/LandCover2023NewClassification_2.png" /> Permanent Water Bodies <br />\
+        <img src="styles/legend/LandCover2023NewClassification_5.png" /> Industrial Buildings<br />\
+        <img src="styles/legend/LandCover2023NewClassification_7.png" /> Impermeable Surfaces<br />\
+        <img src="styles/legend/LandCover2023NewClassification_8.png" /> Unconsolidated Surfaces<br />\
+        <img src="styles/legend/LandCover2023NewClassification_12.png" /> Urban Broadleaf<br />\
+        <img src="styles/legend/LandCover2023NewClassification_10.png" /> Urban Coniferous<br />\
+        <img src="styles/legend/LandCover2023NewClassification_11.png" /> Urban Perennial Herbaceous<br />\
+        <img src="styles/legend/LandCover2023NewClassification_9.png" /> Urban Shrub<br /></a>'
         });
     
 var lyr_LandUse2023 = new ol.layer.Image({
@@ -433,14 +433,14 @@ var lyr_LandUse2023 = new ol.layer.Image({
      
     title: '<div id="layertitle">Land Use 2023<br />\
         <i class="fas fa-angle-up" id="secondImage"></i><i class="fas fa-angle-down" id="firstImage"></i></div><a class="layerlegend">\
-        <img src="styles/legend/LandUse2023_0.png" /> Uso forestale<br />\
-        <img src="styles/legend/LandUse2023_1.png" /> Urbano e aree assimilate<br />\
-        <img src="styles/legend/LandUse2023_2.png" /> Usi d\'acqua<br />\
-        <img src="styles/legend/LandUse2023_3.png" /> Seminativi<br />\
-        <img src="styles/legend/LandUse2023_4.png" /> Foraggere<br />\
-        <img src="styles/legend/LandUse2023_5.png" /> Colture permanenti<br />\
-        <img src="styles/legend/LandUse2023_6.png" /> Altri usi agricoli<br />\
-        <img src="styles/legend/LandUse2023_7.png" /> Altri usi non economici<br /></a>'
+        <img src="styles/legend/LandUse2023_0.png" /> Forestal Use<br />\
+        <img src="styles/legend/LandUse2023_1.png" /> Urban<br />\
+        <img src="styles/legend/LandUse2023_2.png" /> Water<br />\
+        <img src="styles/legend/LandUse2023_3.png" /> Arable Land<br />\
+        <img src="styles/legend/LandUse2023_4.png" /> Forage<br />\
+        <img src="styles/legend/LandUse2023_5.png" /> Permanent Crops<br />\
+        <img src="styles/legend/LandUse2023_6.png" /> Other Agricoltural Uses<br />\
+        <img src="styles/legend/LandUse2023_7.png" /> Other Non-economical Uses<br /></a>'
         });
     
 var lyr_LandCover2023 = new ol.layer.Image({
@@ -465,14 +465,14 @@ var lyr_LandCover2023 = new ol.layer.Image({
      
     title: '<div id="layertitle">Land Cover 2023<br />\
         <i class="fas fa-angle-up" id="secondImage"></i><i class="fas fa-angle-down" id="firstImage"></i></div><a class="layerlegend">\
-        <img src="styles/legend/LandCover2023_0.png" /> Superfici impermeabili<br />\
-        <img src="styles/legend/LandCover2023_1.png" /> Superfici non consolidate<br />\
-        <img src="styles/legend/LandCover2023_2.png" /> Latifoglie<br />\
-        <img src="styles/legend/LandCover2023_3.png" /> Conifere<br />\
-        <img src="styles/legend/LandCover2023_4.png" /> Arbusteti<br />\
-        <img src="styles/legend/LandCover2023_5.png" /> Erbaceo periodico<br />\
-        <img src="styles/legend/LandCover2023_6.png" /> Erbaceo permanente<br />\
-        <img src="styles/legend/LandCover2023_7.png" /> Corpi idrici permanenti<br /></a>'
+        <img src="styles/legend/LandCover2023_2.png" /> Broadleaf<br />\
+        <img src="styles/legend/LandCover2023_3.png" /> Coniferous<br />\
+        <img src="styles/legend/LandCover2023_4.png" /> Shrub<br />\
+        <img src="styles/legend/LandCover2023_6.png" /> Perennial Herbaceous<br />\
+        <img src="styles/legend/LandCover2023_5.png" /> Seasonal Herbaceous<br />\
+        <img src="styles/legend/LandCover2023_7.png" /> Permanent Water Bodies<br />\
+        <img src="styles/legend/LandCover2023_0.png" /> Impermeable Surfaces<br />\
+        <img src="styles/legend/LandCover2023_1.png" /> Unconsolidated Surfaces<br /></a>'
         });
 
 var format_Buildings = new ol.format.GeoJSON();
@@ -618,7 +618,10 @@ var group_Basemap = new ol.layer.Group({
 
 lyr_OSMStandard.setVisible(true);
 lyr_LandCover2023withUrbanClassification.setVisible(false);lyr_LandUse2023.setVisible(false);lyr_LandCover2023.setVisible(false);
-lyr_Buildings.setVisible(false);lyr_IndustrialBuildings.setVisible(false);lyr_GreenAreas.setVisible(false);
+lyr_excursion_slope_prob_above0_suhi.setVisible(false);lyr_excursion_slope_prob_below0_suhi.setVisible(false);
+lyr_svc_sd_suhi.setVisible(false);lyr_SVCmeanSUHI.setVisible(false);lyr_space_sd_suhi.setVisible(false);lyr_space_mean_suhi.setVisible(false);
+lyr_inla_SPDE_svc_sdALL_alt_v2.setVisible(false);lyr_inla_SPDE_svc_meanALL_alt_v2.setVisible(false);lyr_inla_SPDE_space_sdALL_alt_v2.setVisible(false);lyr_inla_SPDE_space_meanALL_alt_v2.setVisible(false);
+lyr_Buildings.setVisible(false);lyr_IndustrialBuildings.setVisible(false);lyr_GreenAreas.setVisible(false);lyr_Altimetry.setVisible(false);
 lyr_MunicipalityofBologna.setVisible(false);
 var layersList = [group_Basemap,group_LanUseandLandCover,group_PosteriorExcursions,group_SUHImodel,group_LSTmodel,group_OSMData,group_StudyArea,];
 lyr_Buildings.set('fieldAliases', {'fid': 'fid', 'full_id': 'full_id', 'osm_id': 'osm_id', 'osm_type': 'osm_type', 'building': 'building', 'name': 'name', 'amenity': 'amenity', 'brand': 'brand', 'wheelchair': 'wheelchair', });
