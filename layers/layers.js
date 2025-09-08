@@ -10,6 +10,118 @@ var lyr_OSMStandard = new ol.layer.Tile({
                 url: 'http://tile.openstreetmap.org/{z}/{x}/{y}.png'
             })
         });
+
+var lyr_excursion_slope_prob_below0_lst = new ol.layer.Image({
+    source: new ol.source.ImageStatic({
+        url: "./layers/excursion_slope_prob_below0_lst.png",
+        projection: 'EPSG:3857',
+        alwaysInRange: true,
+        imageExtent: [1249622.477437, 5530481.577859, 1272969.872405, 5552313.551122],
+    attributions: '<a class="legend"><b>excursion_slope_prob_below0_lst</b><br />\
+        <img src="styles/legend/excursion_slope_prob_below0_lst_0.png" /> 0,0000<br />\
+        <img src="styles/legend/excursion_slope_prob_below0_lst_2.png" /> 1,0000<br /></a>'
+        }),
+    opacity: 1,
+    permalink: "excursion_slope_prob_below0_lst",
+    
+     
+    title: '<div id="layertitle">LST - Improving<br />\
+        <i class="fas fa-angle-up" id="secondImage"></i><i class="fas fa-angle-down" id="firstImage"></i></div><a class="layerlegend">\
+        <img src="styles/legend/excursion_slope_prob_below0_lst_0.png" /> <95%<br />\
+        <img src="styles/legend/excursion_slope_prob_below0_lst_2.png" /> ≥95%<br /></a>'
+        });
+    
+var lyr_excursion_slope_prob_above0_lst = new ol.layer.Image({
+    source: new ol.source.ImageStatic({
+        url: "./layers/excursion_slope_prob_above0_lst.png",
+        projection: 'EPSG:3857',
+        alwaysInRange: true,
+        imageExtent: [1249622.477437, 5530481.577859, 1272969.872405, 5552313.551122],
+    attributions: '<a class="legend"><b>excursion_slope_prob_above0_lst</b><br />\
+        <img src="styles/legend/excursion_slope_prob_above0_lst_0.png" /> 0,0000<br />\
+        <img src="styles/legend/excursion_slope_prob_above0_lst_2.png" /> 1,0000<br /></a>'
+        }),
+    opacity: 1,
+    permalink: "excursion_slope_prob_above0_lst",
+    
+     
+    title: '<div id="layertitle">LST - Worsening<br />\
+        <i class="fas fa-angle-up" id="secondImage"></i><i class="fas fa-angle-down" id="firstImage"></i></div><a class="layerlegend">\
+        <img src="styles/legend/excursion_slope_prob_above0_lst_0.png" /> <95%<br />\
+        <img src="styles/legend/excursion_slope_prob_above0_lst_2.png" />  ≥95%<br /></a>'
+        });
+    
+var lyr_exampleLST = new ol.layer.Image({
+    source: new ol.source.ImageStatic({
+        url: "./layers/exampleLST.png",
+        projection: 'EPSG:3857',
+        alwaysInRange: true,
+        imageExtent: [1249600.946493, 5530459.925036, 1272991.504052, 5552335.208607],
+    attributions: '<a class="legend"><b>exampleLST</b><br />\
+        <img src="styles/legend/exampleLST_0.png" /> 32<br />\
+        <img src="styles/legend/exampleLST_1.png" /> 34<br />\
+        <img src="styles/legend/exampleLST_2.png" /> 36<br />\
+        <img src="styles/legend/exampleLST_3.png" /> 38<br />\
+        <img src="styles/legend/exampleLST_4.png" /> 40<br />\
+        <img src="styles/legend/exampleLST_5.png" /> 42<br />\
+        <img src="styles/legend/exampleLST_6.png" /> 45<br />\
+        <img src="styles/legend/exampleLST_7.png" /> 47<br />\
+        <img src="styles/legend/exampleLST_8.png" /> 49<br />\
+        <img src="styles/legend/exampleLST_9.png" /> 51<br />\
+        <img src="styles/legend/exampleLST_10.png" /> 53<br /></a>'
+        }),
+    opacity: 1,
+    permalink: "exampleLST",
+    
+     
+    title: '<div id="layertitle">LST<br />\
+        <i class="fas fa-angle-up" id="secondImage"></i><i class="fas fa-angle-down" id="firstImage"></i></div><a class="layerlegend">\
+        <img src="styles/legend/exampleLST_0.png" /> 32<br />\
+        <img src="styles/legend/exampleLST_1.png" /> 34<br />\
+        <img src="styles/legend/exampleLST_2.png" /> 36<br />\
+        <img src="styles/legend/exampleLST_3.png" /> 38<br />\
+        <img src="styles/legend/exampleLST_4.png" /> 40<br />\
+        <img src="styles/legend/exampleLST_5.png" /> 42<br />\
+        <img src="styles/legend/exampleLST_6.png" /> 45<br />\
+        <img src="styles/legend/exampleLST_7.png" /> 47<br />\
+        <img src="styles/legend/exampleLST_8.png" /> 49<br />\
+        <img src="styles/legend/exampleLST_9.png" /> 51<br />\
+        <img src="styles/legend/exampleLST_10.png" /> 53<br /></a>'
+        });
+    
+var lyr_exampleSUHI = new ol.layer.Image({
+    source: new ol.source.ImageStatic({
+        url: "./layers/exampleSUHI.png",
+        projection: 'EPSG:3857',
+        alwaysInRange: true,
+        imageExtent: [1249600.946493, 5530459.925036, 1272991.504052, 5552335.208607],
+    attributions: '<a class="legend"><b>exampleSUHI</b><br />\
+        <img src="styles/legend/exampleSUHI_0.png" /> 0<br />\
+        <img src="styles/legend/exampleSUHI_2.png" /> 2<br />\
+        <img src="styles/legend/exampleSUHI_3.png" /> 4<br />\
+        <img src="styles/legend/exampleSUHI_4.png" /> 6<br />\
+        <img src="styles/legend/exampleSUHI_5.png" /> 8<br />\
+        <img src="styles/legend/exampleSUHI_6.png" /> 10<br />\
+        <img src="styles/legend/exampleSUHI_7.png" /> 12<br />\
+        <img src="styles/legend/exampleSUHI_8.png" /> 14<br />\
+        <img src="styles/legend/exampleSUHI_9.png" /> 15<br /></a>'
+        }),
+    opacity: 1,
+    permalink: "exampleSUHI",
+    
+     
+    title: '<div id="layertitle">SUHI<br />\
+        <i class="fas fa-angle-up" id="secondImage"></i><i class="fas fa-angle-down" id="firstImage"></i></div><a class="layerlegend">\
+        <img src="styles/legend/exampleSUHI_0.png" /> 0<br />\
+        <img src="styles/legend/exampleSUHI_2.png" /> 2<br />\
+        <img src="styles/legend/exampleSUHI_3.png" /> 4<br />\
+        <img src="styles/legend/exampleSUHI_4.png" /> 6<br />\
+        <img src="styles/legend/exampleSUHI_5.png" /> 8<br />\
+        <img src="styles/legend/exampleSUHI_6.png" /> 10<br />\
+        <img src="styles/legend/exampleSUHI_7.png" /> 12<br />\
+        <img src="styles/legend/exampleSUHI_8.png" /> 14<br />\
+        <img src="styles/legend/exampleSUHI_9.png" /> 15<br /></a>'
+        });
         
 var lyr_excursion_slope_prob_above0_suhi = new ol.layer.Image({
     source: new ol.source.ImageStatic({
@@ -579,6 +691,10 @@ var group_OSMData = new ol.layer.Group({
                                 layers: [lyr_Buildings,lyr_IndustrialBuildings,lyr_GreenAreas,],
                                 openInLayerSwitcher: true,
                                 title: 'OSM Data'});
+var group_examples = new ol.layer.Group({
+                                layers: [lyr_exampleSUHI,lyr_exampleLST,],
+                                openInLayerSwitcher: true,
+                                title: 'Remote Sensing Data Example (August 1, 2024)'});
 var subgroup_LSTmodel1 = new ol.layer.Group({
                                 layers: [lyr_inla_SPDE_space_sdALL_alt_v2,lyr_inla_SPDE_space_meanALL_alt_v2,],
                                 openInLayerSwitcher: true,
@@ -603,8 +719,16 @@ var group_SUHImodel = new ol.layer.Group({
                                 layers: [subgroup_SUHImodel2,subgroup_SUHImodel1,],
                                 openInLayerSwitcher: true,
                                 title: 'SUHI model'});
-var group_PosteriorExcursions = new ol.layer.Group({
+var subgroup_PosteriorExcursions1 = new ol.layer.Group({
+                                layers: [lyr_excursion_slope_prob_above0_lst,lyr_excursion_slope_prob_below0_lst,],
+                                openInLayerSwitcher: true,
+                                title: 'LST'});
+var subgroup_PosteriorExcursions2 = new ol.layer.Group({
                                 layers: [lyr_excursion_slope_prob_above0_suhi,lyr_excursion_slope_prob_below0_suhi,],
+                                openInLayerSwitcher: true,
+                                title: 'SUHI'});
+var group_PosteriorExcursions = new ol.layer.Group({
+                                layers: [subgroup_PosteriorExcursions2,subgroup_PosteriorExcursions1,],
                                 openInLayerSwitcher: true,
                                 title: 'Posterior 95% Excursion Probabilities'});
 var group_LanUseandLandCover = new ol.layer.Group({
@@ -618,12 +742,13 @@ var group_Basemap = new ol.layer.Group({
 
 lyr_OSMStandard.setVisible(true);
 lyr_LandCover2023withUrbanClassification.setVisible(false);lyr_LandUse2023.setVisible(false);lyr_LandCover2023.setVisible(false);
+lyr_excursion_slope_prob_below0_lst.setVisible(false);lyr_excursion_slope_prob_above0_lst.setVisible(false);lyr_exampleLST.setVisible(false);lyr_exampleSUHI.setVisible(false);
 lyr_excursion_slope_prob_above0_suhi.setVisible(false);lyr_excursion_slope_prob_below0_suhi.setVisible(false);
 lyr_svc_sd_suhi.setVisible(false);lyr_SVCmeanSUHI.setVisible(false);lyr_space_sd_suhi.setVisible(false);lyr_space_mean_suhi.setVisible(false);
 lyr_inla_SPDE_svc_sdALL_alt_v2.setVisible(false);lyr_inla_SPDE_svc_meanALL_alt_v2.setVisible(false);lyr_inla_SPDE_space_sdALL_alt_v2.setVisible(false);lyr_inla_SPDE_space_meanALL_alt_v2.setVisible(false);
 lyr_Buildings.setVisible(false);lyr_IndustrialBuildings.setVisible(false);lyr_GreenAreas.setVisible(false);lyr_Altimetry.setVisible(false);
 lyr_MunicipalityofBologna.setVisible(false);
-var layersList = [group_Basemap,group_LanUseandLandCover,group_PosteriorExcursions,group_SUHImodel,group_LSTmodel,group_OSMData,group_StudyArea,];
+var layersList = [group_Basemap,group_LanUseandLandCover,group_PosteriorExcursions,group_SUHImodel,group_LSTmodel,group_examples,group_OSMData,group_StudyArea,];
 lyr_Buildings.set('fieldAliases', {'fid': 'fid', 'full_id': 'full_id', 'osm_id': 'osm_id', 'osm_type': 'osm_type', 'building': 'building', 'name': 'name', 'amenity': 'amenity', 'brand': 'brand', 'wheelchair': 'wheelchair', });
 lyr_IndustrialBuildings.set('fieldAliases', {'fid': 'fid', 'full_id': 'full_id', 'osm_id': 'osm_id', 'osm_type': 'osm_type', 'building': 'building', 'name': 'name', 'amenity': 'amenity', 'brand': 'brand', 'wheelchair': 'wheelchair', });
 lyr_GreenAreas.set('fieldAliases', {'fid': 'fid', 'full_id': 'full_id', 'osm_id': 'osm_id', 'osm_type': 'osm_type', 'leisure': 'leisure', 'addr:postcode': 'addr:postcode', 'addr:street': 'addr:street', 'addr:city': 'addr:city', 'description': 'description', 'garden:type': 'garden:type', 'wikipedia': 'wikipedia', 'boundary': 'boundary', 'allocation:it': 'allocation:it', 'wikidata': 'wikidata', 'type': 'type', 'name': 'name', 'area': 'area', });
