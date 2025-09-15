@@ -50,20 +50,37 @@ We used <strong>30-meter resolution Landsat 8 LST data</strong> processed throug
 To study both spatial and temporal variations in SUHI, we employed a <strong>Bayesian spatially varying coefficient (SVC) model</strong> which included a spatially 
 varying intercept, interpreted as a residual spatial variation in LST, and a spatially varying linear effect of time, representing the long-term 
 temporal trend in LST. These spatially structured effects were modelled using Gaussian random fields and estimated using the <strong>Stochastic Partial 
-Differential Equation (SPDE)</strong> approach and the <strong>Integrated Nested Laplace Approximation (INLA)</strong> framework. The model also included land cover 
+Differential Equation (SPDE)</strong> approach and the <strong>Integrated Nested Laplace Approximation (INLA)</strong> framework. The model also included altitude and land cover 
 types as non-spatial predictors, using a detailed land cover classification that separat es urban green areas from non-urban vegetation to understand how 
 different kind of vegetation affect LST.<br><br>
 
 Posterior estimates showed that artificial surfaces and non-consolidated areas are warmer than vegetated zones while tree-covered areas are cooler compared 
 to other vegetation types. Urban green spaces showed higher temperatures than their non-urban counterparts, suggesting that vegetation&apos;s cooling effect 
-depends on its surroundings. The SVC model also revealed significant spatial variation in SUHI intensity, with residual spatial LST ranging from about -9 &deg;C up 
-to 14 &deg;C across the area. Temporal trends also varied locally, showing areas warming up to 0.65 &deg;C per year and others experiencing cooling up to -0.75 &deg;C 
+depends on its surroundings. The SVC model also revealed significant spatial variation in LST, with residual spatial LST ranging from about -11 &deg;C up 
+to 16 &deg;C across the area. Temporal trends also varied locally, showing areas warming up to 0.85 &deg;C per year and others experiencing cooling up to -0.55 &deg;C 
 per year. <br><br>
 
 By combining high-resolution satellite data with advanced spatial modelling through the SPDE-INLA SVC approach, we were able to 
-capture both the spatial patterns and local changes of the SUHI effect over time. These findings closely matched land cover changes 
+capture both the spatial patterns and local changes of the LST over time. These findings closely matched land cover changes 
 identified from satellite imagery and ISPRA land cover maps, showing how this integrated method improves our understanding of urban 
-heat dynamics and supports more effective climate adaptation planning.	
+heat dynamics and supports more effective climate adaptation planning.	<br><br>
+
+-----------------------------------------------------------------------------------
+
+<br><br>
+
+<strong>Additional Analysis (post-submission)</strong> <br><br>
+
+After the submission of this abstract, we extended the study by fitting another SVC model specifically for SUHI. 
+In this extension, SUHI was defined as the pixelwise difference between the land surface temperature in urban areas - identified using the 2023 land use map and the mean temperature 
+in the surrounding rural areas. <br><br>
+
+The SVC model on SUHI data revealed significant spatial variation in SUHI intensity, with residual spatial SUHI ranging from about -6 &deg;C up 
+to 15 &deg;C across the area. Temporal trends also varied locally, showing areas with a worsening in SUHI up to 0.63 &deg;C per year and others experiencing a reduction in the difference between urban and rural areas temperature up to -1 &deg;C 
+per year. <br><br>
+This approach allowed us to directly model the urban-rural contrast over space and time, 
+providing complementary insights to those obtained from the LST analysis.
+
 	
   <o:p></o:p></span></h2>
 
